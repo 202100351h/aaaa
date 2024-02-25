@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bbd9eb;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos del encabezado */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alineación vertical */
+}
+
+.header-container img {
+    max-width: 20%;
+}
+
+.header-container h1 {
+    margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos de los campos de entrada */
+select, input[type="number"] {
+    width: calc(100% - 16px); /* Considerando el padding */
+    padding: 8px;
+    border: 1px solid #1f9397;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Estilos del botón de enviar */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del formulario */
+form {
+    padding: 20px;
+}
+
+/* Estilos de las filas pares de la tabla */
+form tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos de la primera celda de la tabla */
+form td:first-child {
+    font-weight: bold;
+    width: 150px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
